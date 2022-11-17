@@ -83,9 +83,9 @@
                 </thead>
                 <tbody class="tbody-upcoming-container">
                         <tr v-for="element of upcomingCategoryArray">
-                            <td class="td-container">{{element.name}}</td>
-                            <td class="td-container">${{element.revenues}}</td>
-                            <td class="td-container">{{element.assistance}}% of assistance</td>
+                            <td class="td-container">{{element.nombre}}</td>
+                            <td class="td-container">${{element.ganancia}}</td>
+                            <td class="td-container">{{element.porcentaje}}% of assistance</td>
                         </tr>
                 </tbody>
             </table>
@@ -97,9 +97,9 @@
                 </thead>
                 <tbody class="tbody-past-container">
                     <tr v-for=" element of pastCategoryArray">
-                        <td class="td-container"> {{element.name}}</td>
-                        <td class="td-container"> ${{element.revenues}}</td>
-                        <td class="td-container"> {{element.assistance}} % of assistance</td>
+                        <td class="td-container"> {{element.nombre}}</td>
+                        <td class="td-container"> ${{element.ganancia}}</td>
+                        <td class="td-container"> {{element.porcentaje}} % of assistance</td>
                     </tr>
                 </tbody>
             </table>

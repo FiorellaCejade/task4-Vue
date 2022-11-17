@@ -45,8 +45,6 @@ createApp ( {
 
                 this.upcomingCategoryArray = this.statsUp(this.upcomingEventsCategory, this.upcomingEvents)
 
-                console.log(this.pastCategoryArray);
-                console.log(this.upcomingCategoryArray);
 
             })
             },
